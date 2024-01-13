@@ -8,3 +8,4 @@
 ## Libraries
 * Bolder Flight Systems MPU9250 - https://github.com/bolderflight/invensense-imu
 * Adafruit_BMP280_Library - https://github.com/adafruit/Adafruit_BMP280_Library
+* RF24 - https://github.com/nRF24/RF24

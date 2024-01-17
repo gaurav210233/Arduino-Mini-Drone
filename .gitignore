@@ -6,4 +6,6 @@ Arduino-Mini-Drone-PIO/.vscode/ipch
 Arduino-Mini-Drone-PIO/.gitignore
 Arduino-Mini-Drone-PIO/src/usage.cpp
 Arduino-Mini-Drone-PIO/test/temp.cpp
+Arduino-Mini-Drone-PIO/test/temp2.cpp
 .vscode/c_cpp_properties.json
+Arduino-Mini-Drone-KiCad/Arduino-Mini-Drone-KiCad-backups

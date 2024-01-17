@@ -48,9 +48,23 @@ class CustomMPU9250
 public:
     void init();
     void calibrateMagnetometer();
+    void calculate_IMU_error();
+    void getMotion6(float *ax, float *ay, float *az, float *gx, float *gy, float *gz);
+    void getMotion9(float *ax, float *ay, float *az, float *gx, float *gy, float *gz, float *mx, float *my, float *mz);
+    void getNoErrorIMUdata();
 
+    //Magnetometer calibration parameters - if using MPU9250, uncomment calibrateMagnetometer() in void setup() to get these values, else just ignore these
     float MagErrorX = 0, MagErrorY = 0, MagErrorZ = 0;
     float MagScaleX = 1, MagScaleY = 1, MagScaleZ = 1;
+
+    //IMU calibration parameters - calibrate IMU using calculate_IMU_error() in the void setup() to get these values, then comment out calculate_IMU_error()
+    float AccErrorX = 0.0, AccErrorY = 0.0, AccErrorZ = 0.0;
+    float GyroErrorX = 0.0, GyroErrorY = 0.0, GyroErrorZ = 0.0;
+
+    //Read values
+    float AccX, AccY, AccZ;
+    float GyroX, GyroY, GyroZ;
+    float MagX, MagY, MagZ;
 
 private:
     MPU9250 mpu9250;

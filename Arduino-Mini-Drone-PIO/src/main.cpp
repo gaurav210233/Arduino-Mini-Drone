@@ -1,18 +1,33 @@
 #include <Arduino.h>
+#include "custom_BMP280.h"
+#include "custom_MPU9250.h"
 
-// put function declarations here:
-int myFunction(int, int);
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+CustomBMP280 bmp;
+
+void setup()
+{
+  Serial.begin(115200);
+  bmp.init();
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-}
+void loop()
+{
+  float altitude = bmp.getAltitude();
+  float pressure = bmp.getPressure();
+  float temperature = bmp.getTemperature();
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  // Print values or use them as needed
+  Serial.print("Altitude: ");
+  Serial.print(altitude);
+  Serial.print(" meters");
+
+  Serial.print("\tPressure: ");
+  Serial.print(pressure);
+  Serial.print(" Pa");
+
+  Serial.print("\tTemperature: ");
+  Serial.print(temperature);
+  Serial.println(" °C");
+
 }

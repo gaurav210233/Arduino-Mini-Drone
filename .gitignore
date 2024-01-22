@@ -7,4 +7,5 @@ Arduino-Mini-Drone-PIO/.gitignore
 Arduino-Mini-Drone-PIO/temp
 .vscode/c_cpp_properties.json
 Arduino-Mini-Drone-KiCad/Arduino-Mini-Drone-KiCad-backups
+Arduino-Mini-Drone-KiCad/V2/Arduino-Mini-Drone-KiCad-backups
 Arduino-Mini-Drone-KiCad/Datasheets

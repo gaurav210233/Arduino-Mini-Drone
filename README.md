@@ -9,3 +9,6 @@
 * Bolder Flight Systems MPU9250 - https://github.com/bolderflight/invensense-imu
 * Adafruit_BMP280_Library - https://github.com/adafruit/Adafruit_BMP280_Library
 * RF24 - https://github.com/nRF24/RF24
+
+## Useful Links
+* Interactive BOM - https://gaurav210233.github.io/Arduino-Mini-Drone/Arduino-Mini-Drone-KiCad/V2/bom/ibom.html

@@ -1,0 +1,22 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+B+,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,1,PWR,
+"C10, C11, C12, C13",0805,4,22uf,C109447
+"C14, C15",CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder,2,100uf,C171664
+C17,0603,1,10uf,C380316
+"C18, C19",0603,2,100nf,C14663
+"D3, D4, D5, D6",D_MELF_Handsoldering,4,SS34,C3011102
+D9,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,1,WS2812B,C2761795
+"H5, H6, H7, H8",MountingHole_2.2mm_M2_Pad_Via,4,MountingHole,
+M1,PinHeader_1x02_P1.27mm_Vertical,1,Motor1,
+M2,PinHeader_1x02_P1.27mm_Vertical,1,Motor2,
+M3,PinHeader_1x02_P1.27mm_Vertical,1,Motor3,
+M4,PinHeader_1x02_P1.27mm_Vertical,1,Motor4,
+NEO,PinHeader_1x08_P1.27mm_Vertical,1,POWER,
+NEO_Enable,SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,1,LED ON OFF,
+"Q1, Q2, Q3, Q4",SOT-23,4,AO3400A,C347475
+Q5,SOT-23,1,AO3401A,C347476
+"R10, R4, R6, R8",0603,4,10k,C25804
+"R11, R5, R7, R9",0603,4,100,C19702
+R12,0603,1,100k,C25803
+R13,0603,1,33k,C4216
+R14,0603,1,390,C23151

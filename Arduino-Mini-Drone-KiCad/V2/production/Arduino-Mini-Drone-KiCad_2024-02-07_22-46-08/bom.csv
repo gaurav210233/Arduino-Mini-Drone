@@ -1,0 +1,41 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"B+, B+1",JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,2,PWR,
+"BZ1, BZ2",PinHeader_1x02_P1.27mm_Vertical,2,Buzzer,
+"C1, C16, C2, C20, C21, C24, C3, C6",0603,8,0.1uf,C71629
+"C10, C11, C12, C13, C28, C29, C30, C31",0805,8,22uf,C109447
+"C14, C15, C32, C33",CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder,4,100uf,C171664
+"C17, C34",0603,2,10uf,C380316
+"C18, C19, C35, C36",0603,4,100nf,C14663
+"C22, C23, C4, C5",CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder,4,10uf,C600516
+"C25, C26, C7, C8",0603,4,1uf,C15849
+"C27, C9",1206,2,10uf,C600516
+"D1, D7",0603,2,Green,C241891
+"D10, D11, D12, D13, D3, D4, D5, D6",D_MELF_Handsoldering,8,SS34,C3011102
+"D14, D9",LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,2,WS2812B,C2761795
+"D2, D8",0603,2,Red,C266784
+"H1, H10, H11, H12, H13, H14, H15, H16, H2, H3, H4, H5, H6, H7, H8, H9",MountingHole_2.2mm_M2_Pad_Via,16,MountingHole,
+"J1, J3",PinHeader_1x08_P1.27mm_Vertical,2,NRF24,
+"J11, J12",PinHeader_1x03_P1.27mm_Vertical,2,PPM,
+"J13, J14",PinHeader_1x05_P1.27mm_Vertical,2,Open,
+"J2, J4",PinHeader_1x06_P1.27mm_Vertical,2,UART + BT,
+"J7, J8",PinHeader_1x08_P1.27mm_Vertical,2,MCU,
+"M1, M5",PinHeader_1x02_P1.27mm_Vertical,2,Motor1,
+"M2, M6",PinHeader_1x02_P1.27mm_Vertical,2,Motor2,
+"M3, M7",PinHeader_1x02_P1.27mm_Vertical,2,Motor3,
+"M4, M8",PinHeader_1x02_P1.27mm_Vertical,2,Motor4,
+"NEO, NEO1",PinHeader_1x08_P1.27mm_Vertical,2,POWER,
+"NEO_Enable, NEO_Enable1",SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,2,LED ON OFF,
+"Q1, Q2, Q3, Q4, Q6, Q7, Q8, Q9",SOT-23,8,AO3400A,C347475
+"Q10, Q5",SOT-23,2,AO3401A,C347476
+"R1, R10, R15, R17, R18, R20, R22, R24, R3, R4, R6, R8",0603,12,10K,C25804
+"R11, R19, R21, R23, R25, R5, R7, R9",0603,8,100,C19702
+"R12, R26",0603,2,100k,C25803
+"R13, R27",0603,2,33k,C4216
+"R14, R28",0603,2,390,C23151
+"R16, R2",0603,2,330,C23140
+"U1, U4",TQFP-32_7x7mm_P0.8mm,2,ATmega328P-A,C14877
+"U2, U5",SOT-23-5_HandSoldering,2,MIC5205YM5,C412820
+"U3, U6",SOT-23-5_HandSoldering,2,LP5907MFX-3.3,C5370990
+"VCC, VCC1",PinSocket_1x05_P2.54mm_Vertical,2,MPU9250 + BMP280,
+"Y1, Y2",Crystal_SMD_5032-4Pin_5.0x3.2mm,2,Crystal_GND2,C124318
+"mouse-bite-2mm-slot_2, mouse-bite-2mm-slot, mouse-bite-2mm-slot1_6, mouse-bite-2mm-slot1_5, mouse-bite-2mm-slot1_4, mouse-bite-2mm-slot1_3, mouse-bite-2mm-slot1_2, mouse-bite-2mm-slot1",mouse-bite-2mm-slot,8,VAL**,

@@ -1,0 +1,21 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BZ1,PinHeader_1x02_P1.27mm_Vertical,1,Buzzer,
+"C1, C2, C3, C6",0603,4,0.1uf,C71629
+"C4, C5",CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder,2,10uf,C600516
+"C7, C8",0603,2,1uf,C15849
+C9,1206,1,10uf,C600516
+D1,0603,1,Green,C241891
+D2,0603,1,Red,C266784
+"H1, H2, H3, H4",MountingHole_2.2mm_M2_Pad_Via,4,MountingHole,
+J1,PinHeader_1x08_P1.27mm_Vertical,1,NRF24,
+J11,PinHeader_1x03_P1.27mm_Vertical,1,PPM,
+J13,PinHeader_1x05_P1.27mm_Vertical,1,Open,
+J2,PinHeader_1x06_P1.27mm_Vertical,1,UART + BT,
+J7,PinHeader_1x08_P1.27mm_Vertical,1,MCU,
+"R1, R3",0603,2,10K,C25804
+R2,0603,1,330,C23140
+U1,TQFP-32_7x7mm_P0.8mm,1,ATmega328P-A,C14877
+U2,SOT-23-5_HandSoldering,1,MIC5205YM5,C412820
+U3,SOT-23-5_HandSoldering,1,LP5907MFX-3.3,C5370990
+VCC,PinSocket_1x05_P2.54mm_Vertical,1,MPU9250 + BMP280,
+Y1,Crystal_SMD_5032-4Pin_5.0x3.2mm,1,Crystal_GND2,C124318

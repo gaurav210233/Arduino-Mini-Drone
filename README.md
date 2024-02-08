@@ -11,4 +11,6 @@
 * RF24 - https://github.com/nRF24/RF24
 
 ## Useful Links
-* Interactive BOM - https://gaurav210233.github.io/Arduino-Mini-Drone/Arduino-Mini-Drone-KiCad/V2/bom/ibom.html
+* Interactive BOM V2 - https://gaurav210233.github.io/Arduino-Mini-Drone/Arduino-Mini-Drone-KiCad/V2/bom/ibom.html
+* Interactive BOM V2-ESC - https://gaurav210233.github.io/Arduino-Mini-Drone/Arduino-Mini-Drone-KiCad/V2-ESC/bom/ibom.html
+* Interactive BOM V2-FC - https://gaurav210233.github.io/Arduino-Mini-Drone/Arduino-Mini-Drone-KiCad/V2-FC/bom/ibom.html
